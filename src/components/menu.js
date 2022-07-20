@@ -4,6 +4,9 @@ import Pepperoni from './pepperoni';
 import MeatLover from './meat-lover';
 import Veggie from './veggie';
 import './css/menu.css';
+import Hawaiian from './hawaiian';
+import Bbq from './bbq';
+import Footer from './footer';
 
 function Menu() {
   return(
@@ -15,6 +18,9 @@ function Menu() {
         <Pepperoni/>
         <MeatLover/>
         <Veggie/>
+        <Hawaiian/>
+        <Bbq/>
+        <Footer/>
       </div>
     </div>
   );
